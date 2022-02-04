@@ -1,0 +1,75 @@
+/* #1F2937  head and footer
+    "this website is awesome"
+    48px extra-bold #F9FAF8
+    header link text
+    18px #E5E7EB
+    header logo text
+    24px #F9FAF8
+*/
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.row1 {
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+header .header-links{
+    display: flex;
+
+}
+
+header .header-links .link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.row1 section{
+    display: flex;
+
+}
+
+.row1 section .left-content h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.left-content p{
+    color: #E5E7EB;
+}
+
+.left-content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #F9FAF8;
+    background-color: rgb(0, 112, 218);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.row1 section .right-image{
+    width: 830px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
